@@ -1,0 +1,3 @@
+- send PING to irc server (use threads to run in background)
+- use threads to run monitorChannel (multiple commands can be called and responded to in parallel)
+- fix PING/PONG messages (make sure "\r\n" are at the end of message)
